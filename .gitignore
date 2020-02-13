@@ -1,0 +1,6 @@
+*
+
+## Don't ignore...
+!.gitignore
+!README.md
+!src/*
