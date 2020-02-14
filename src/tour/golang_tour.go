@@ -43,7 +43,7 @@ func rand_prob_gen() {
 }
 
 const Truth = true  // Constant declared like vars - also get type from value
-const (  // vars can be set in blocks too
+const (  // vars / consts can be set in blocks too
   Small = 1
   BigInt = Small << 32 - 1      // Shift the 1 left 32 places - biggest int
   BigUInt uint = Small << 64 -1  // uint needed for 64bit integers
