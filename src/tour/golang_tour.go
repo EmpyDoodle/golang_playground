@@ -104,6 +104,13 @@ func is_saturday() {
 	}
 }
 
+func perfect_puzzle() {
+	defer fmt.Println("If you are wise you'll listen to me")  // Defer evalates immediately but doesn't run until everything else has
+	defer fmt.Println("Oompa Loompa Doombady Dee")            // If using multiple defers, executed bottom to top
+	defer fmt.Println("I've got a perfect puzzle for you")
+	fmt.Println("Oompa Loompa Doombady Doo")
+}
+
 func main() {  // 'main' func is run when script executed - call other functions from this
   time_is()
   rand_prob_gen()
