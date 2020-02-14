@@ -33,7 +33,7 @@ var x, y int = rand.Intn(69), rand.Intn(420)  // Global var dec
 
 func sqrt_sum(n1, n2 int) (output float64) {  // Output var named
   n := (n1 + n2)                              // short temp var - takes type from value (int in this case)
-	f := float64(f)                             // can convert types using type as method
+	f := float64(n)                             // can convert types using type as method
   output = math.Sqrt(f)                       // assign val to output var
   return                                      // 'naked' return gives named output vars
 }
@@ -81,7 +81,7 @@ func total_gt10(n1, n2 int) {
 
 func os() {
 	fmt.Print("You are running ")  // Print by itself just does part of a line
-	switch system := runtime.GOOS; os {  // switch is a contained if/else, similar to case statement
+	switch system := runtime.GOOS; system {  // switch is a contained if/else, similar to case statement
 	case "darwin":                       // returns the first case that matches
 		fmt.Println("OSX... Really?")  // Printf will print this + whatever has been Print-ed previously in func
 	case "linux":
