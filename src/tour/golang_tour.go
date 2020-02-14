@@ -112,10 +112,50 @@ func perfect_puzzle() {
 }
 
 func main() {  // 'main' func is run when script executed - call other functions from this
-  time_is()
+  fmt.Println("--- Empson's GoLang Tour ---")
+	fmt.Println("----------------------------")
+	fmt.Println("")
+
+  fmt.Println("- Behold the beauty of the default zero values...")
+	zero_vals()
+	fmt.Println("")
+
+	fmt.Println("- Don't know if you should be working? Look no further!")
+	time_is()
   rand_prob_gen()
+	fmt.Println("")
+
+	fmt.Println("- Watch in awe as we turn these bodily functions into an arbitrary noise")
   str1, str2 := "poo", "wee"
 	fmt.Println(combine(swap(str1, str2)))
+  fmt.Println("")
+
+	fmt.Println("- Variables, Constants and more Type matchups than D&D, Fantasy Football and Pokemon combined!")
   fmt.Println("BigInt is", BigInt, "BigUInt is", BigUInt, "BigNum is", BigNum)
   fmt.Printf("BigInt is %T, BigUInt is %T, BigNum is %T \n", BigInt, BigUInt, BigNum)
+	fmt.Println("")
+
+	fmt.Println("- Loops for every occasion!")
+	loop(6)
+  fmt.Println("")
+
+	fmt.Println("- Ever wondered if the sum of two numbers is bigger than 10? Wonder no more!")
+	total_gt10(4, 5)
+	fmt.Println("")
+
+	fmt.Println("- Other questions available include 'What is my name?' and 'What is this piece of shit OS?'")
+	os()
+	fmt.Println("")
+
+	fmt.Println("- And many more! Well, one more. The most important question...")
+	fmt.Println("-- 'Is it Saturday yet?'")
+	is_saturday()
+  fmt.Println("")
+
+	fmt.Println("- Order now and we'll hire exotic hired help!")
+	perfect_puzzle()
+	fmt.Println("")
+
+	//fmt.Println("Something something pointers and structs something")
+	//fmt.Println("")
 }
