@@ -1,9 +1,11 @@
 # golang_playground
 ### Empson failing to learn Go.
 
-- Repo to learn and play Go.
-- Initially just following the tour and adding own flavour.
-- After that, who knows...
+Repo to learn and play Go.
+
+Initially just following the tour and adding own flavour.
+
+After that, who knows...
 
 ## Build and Run
 (BASH shells only)
@@ -15,5 +17,7 @@
 - -- (Replace `tour` and filenames with preferred subproject / code / executable)
 
 ## Additional
-### Package reference
-https://golang.org/pkg/
+### References
+- https://tour.golang.org/
+- https://golang.org/pkg/
+- https://dave.cheney.net/practical-go
