@@ -7,6 +7,8 @@ Initially just following the tour and adding own flavour.
 
 After that, who knows...
 
+
+
 ## Build and Run
 (BASH shells only)
 - `cd /path/to/projects/dir`
@@ -15,6 +17,8 @@ After that, who knows...
 - `go build src/tour/golang_tour.go`
 - `./golang_tour`
 - -- (Replace `tour` and filenames with preferred subproject / code / executable)
+
+
 
 ## Additional
 ### References
